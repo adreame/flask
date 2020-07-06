@@ -60,7 +60,7 @@ def save_order_payment_result():
 
     # 创建支付宝sdk的工具对象
     alipay_client = AliPay(
-        appid="2016081600258081",
+        appid="your appid",
         app_notify_url=None,  # 默认回调url
         app_private_key_path=os.path.join(os.path.dirname(__file__), "keys/app_private_key.pem"),  # 私钥
         alipay_public_key_path=os.path.join(os.path.dirname(__file__), "keys/alipay_public_key.pem"),
